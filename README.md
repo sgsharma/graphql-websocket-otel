@@ -5,22 +5,14 @@ This project demonstrates how to use WebSockets with GraphQL to propagate tracin
 ## Table of Contents
 
 - [Features](#features)
-- [Setup and Installation](#setup-and-installation)
 - [Running the Project](#running-the-project)
-- [Project Structure](#project-structure)
-- [Usage](#usage)
-- [OpenTelemetry Integration](#opentelemetry-integration)
 
 ## Features
 
 - **GraphQL WebSocket Server**: A server implemented using `graphql-ws` that supports queries and subscriptions over WebSockets.
 - **OpenTelemetry Tracing**: Integrates OpenTelemetry to propagate trace context from the client to the server.
 
-## Setup and Installation
-
-### Prerequisites
-
-Ensure you have Node.js and npm installed on your system.
+## Running the Project
 
 1. **Clone the Repository**:
 
